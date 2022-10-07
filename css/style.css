@@ -68,3 +68,8 @@ header .carrera{
     -webkit-text-stroke-color: rgb(255, 255, 255);
     -webkit-text-fill-color: white;
 }
+h2, h3, h4{
+    font-family: 'Liberation Serif';
+    font-size: 30px;
+    margin-left: 50px;
+}
