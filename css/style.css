@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Liberation Serif' ;
+    src: url(../font/LiberationSerif-Regular.ttf);
+}
+.Titulo h1{
+    font-family: 'Liberation Serif';
+    font-size: 90px; 
+    padding: 50px;
+    text-align: center;
+
+}
+.Titulo img{
+    height: 150px;
+    width: 150px;
+    margin-top: -200px;
+    margin-left: 400px;
+    position: absolute;
+}*{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+margin: 0px;
+margin-left: 5px;
+padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    position: initial;
+    background: rgba(183, 118, 244, 0.796) url(../imagenes/banner-programacion.jpg);
+    height: 150px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    margin-left: -10px;
+    position: initial;
+}
+header .logo2{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    position: initial;
+    align-items: flex-end;
+    margin-left: 1359px;
+    margin-top: -99.5px;
+}
+header .nombre{
+    text-align: center;
+    padding: 0px;
+    margin-top: -125px;
+    overflow:visible;
+    color: aliceblue;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: white;
+}
+header .carrera{
+    font-size: x-large;
+    text-align: center;
+    padding: 0px;
+    margin-top: -15px;
+    font-size: 35px ;
+    overflow:visible;
+    color: aliceblue;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: white;
+}
