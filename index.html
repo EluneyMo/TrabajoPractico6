@@ -268,6 +268,24 @@
                                         <li>DblClick (ondblclick): Sucede cuando el usuario hace doble click en un elemento de un formulario o un link</li>
                                     </ul>
                                   </div>
-
+                                  <div class="ej10">
+                                    <h2>Propiedades de un formulario</h2>
+                                    <p>Javascript tiene numerosas propiedades y fuciones que facilitan la programacion de aplicaciones que manejan formularios</p>
+                                  <p>Document.forms es el array que contiene todos los formularios de la página.</p>
+                                  <p>El navegador crea automáticamente un array llamado elements por cada uno de los formularios que haya dentro de la página. Cada array elements contiene la referencia a todos los elementos de ese formulario.</p>
+                                  <p>Es muy difícil confiar en el que el orden de formulario se mantebla estable dentro de un entorno tan cambiante como lo es el diseño web.</p>
+                                  <p>Una forma de evitar los problemas consiste en acceder a los formularios de una página a través de su atributo name o de su atributo id. De esta forma entrando asi a los formularios de la página, el script funciona igual aunque se reordenen los formularios. Se puede acceder a los formularios y a sus elementos utilizando las funciones DOM de acceso directo a los nodos. </p>
+                                  <p>Cada elemento necesita de las siguientes propiedades para el desarrollo de las aplicaciones:</p>
+                                  <ul>
+                                      <li>Type: Indica el tipo de elemento que se trata. Para los elementos de tipo "input" coincide con el valor de su atributo type. Para las listas desplegables normales (elemento "select") su valor es select-one, permite diferenciarlas de las listas que permiten seleccionar varios elementos a la vez y cuyo tipo es select-multiple. Por último, en los elementos de tipo "textarea", el valor de type es textarea.</li>
+                                      <li>Form: Referencia directa al formulario al que pertenece el elemento. </li>
+                                      <li>Name: Obtiene el valor del atributo name de XHTML. Solamente se puede leer su valor.</li>
+                                      <li>Value: permite leer y modificar el valor del atributo value de HTML. Para los campos de texto obtiene el texto que ha escrito el usuario. Para los botones obtiene el texto que se muestra en el botón.</li>
+  
+                                  </ul>
+                              </div>
+                                  <footer>
+                                      <p>The only page</p>
+                                  </footer>
                 </body>
 </html>
