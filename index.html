@@ -108,6 +108,44 @@
         <h3>Uso de expresiones regulares:</h3>
         <p>Las expresiones regulares se utilizan con los métodos de RegExp test y exec y con los metodos de String match, replace, search, y split</p>
     </div>
+    <div class="ej4">
+        <h2>Creación de funciones </h2>
+        <p>Hay varias formas de crear funciones en Javascript: por declaración, por expresión o mediante constructor de objeto </p>
+        <ul>
+            <li>
+                function nombre(p1, p2...) { }: Crea una función mediante declaración.
+            </li>
+            <li>
+                var nombre = function(p1, p2...) { }: Crea una función mediante expresión.
+            </li>
+            <li>
+                new Function(p1, p2..., code);: Crea una función mediante un constructor de objeto.
+            </li>
+        </ul>
+        <h3>Funciones por declaración</h3>
+        <p>Esta forma permite declarar una función que existirá a lo largo de todo el código</p>
+          <p>Esta funcion permite tambien, ejecutar la función incluso antes de haberla creado y funcionaría correctamente, ya que Javascript primero busca las declaraciones de funciones.</p>
+          <h3>Funciones como objetos</h3>
+          <p>Se pueden declarar funciones como si fueran objetos. </p>
+            <h3>Funciones anónimas </h3>
+            <p>Son un tipo de funciones que se declaran sin nombre de función y se alojan en el interior de una variable y haciendo llamado a ella cada vez que se desee usarla.</p>
+            <h3>Callbacks </h3>
+            <p>Un callback es pasar una función por parámetro a otr función, de modo que esta función  pueda ejecutar la otra funcion de forma genérica desde su código, para asi poder definirlas desde fuera de dicha función.</p>
+            
+                <p>Esto nos podría permitir crear varias funciones para utilizar a modo de callback y reutilizarlas posteriormente con diferentes propósitos. Son la primera estrategia que se suele utilizar en Javascript para trabajar la asincronía. Se suele evitar para facilitar la legibilidad del código, y sólo se utiliza en casos muy específicos donde estás seguro que no vas a reutilizar la función callback </p>
+                <h3>Funciones autoejecutables </h3>
+                <p>Pueden existir casos donde se necesita crear una función y ejecutarla sobre la marcha. Para crearla tenemos que envolver entre paréntesis la función anónima en cuestión y luego, ejecutarla.</p>           
+                <p>Podemos utilizar parámetros en dichas funciones autoejecutables. </p>
+                <p>Si la función autoejecutable devuelve algún valor con return, a diferencia de las funciones por expresión, en este caso lo que se almacena en la variable es el valor que devuelve la función autoejecutada.</p>
     
+                  <h3>Clausuras </h3>
+                  <p>Las clausuras, se define como una función que "encierra" variables en su propio ámbito. Por ejemplo:</p>
+                  
+                    <h3>Arrow functions </h3>
+                    <p>Las Arrow functions o funciones flecha son una forma corta de escribir funciones.</p>
+                      <p>Las funciones flecha hacen que el código sea mucho más legible y claro de escribir, mejorando la productividad y la claridad.</p>
+                      <h3>Ámbito léxico de this </h3>
+                      <p>Una de las principales diferencias de las funciones flecha respecto a las funciones tradicionales, es el valor de la palabra clave this, que no siempre es la misma.</p>
+                    </div>
 </body>
 </html>
