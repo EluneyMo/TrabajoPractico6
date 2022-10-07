@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    background: #000 url(../imagenes/background.jpg);
+    -webkit-text-stroke-width:0.5px;
+    -webkit-text-stroke-color: #000;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    h1{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        position: initial;
+    
+    }
+    h2{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        position: initial;
+        
+    }
+    a{
+        color: aqua;
+    }
