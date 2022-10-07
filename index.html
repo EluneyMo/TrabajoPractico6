@@ -45,6 +45,69 @@
         <p>Un ejemplo puede ser: </p> 
         <img src="imagenes/forma2.png" alt="forma dos">
     </div>
+    <div class="ej3">
+        <h2>Manejo de Variables</h2>
+        <p>
+            Una variable es un espacio en memoria donde se almacena un dato, un lugar donde podemos guardar cualquier tipo de información que necesitemos para realizar acciones en nuestros programas. 
+        </p>
+        <p>
+            Se podría relacionar a una variable con una caja, donde almacenamos un dato. Esa caja tiene un nombre, para que podamos referirnos a la variable como tal. Los nombres de las variables se arman con caracteres como: el carácter guión bajo y el carácter dólar. Javascript es un lenguaje sensible a mayúsculas y minúsculas, por lo que las variables también se afectan por esa distinción. 
+        </p>
+        <p>
+            Declarar variables consiste en definir, y de paso informar al sistema, que vas a utilizar una variable.
+        </p>
+        <h3>Declaración de variables con var</h3>
+        <p>Se usa la palabra "var" cuando queremos declarar una o varias variables. Se usa esa palabra para definir la variable antes de usarla.</p>
+        <h3>Declaración de variable con let</h3>
+        <p>Esta es una nueva manera de declarar las variables y lo que hace es afectar a su ámbito, ya que son locales al bloque donde se están declarando.</p>
+        <h3>Declaración de variable const</h3>
+        <p>La declaración "const" lo que realmente hace es declarar una constante, que no puede variar su valor a lo largo de la ejecución de un programa.</p>
+        <h2>Tipos de datos JavaScript</h2>
+        <p>En Javascript existen 7 tipos de datos y estos son:</p>
+        <ul>
+            <li>String: Cadenas de texto.</li>
+            <li>Number: Valores numéricos.</li>
+            <li>Boolean: Entidad lógica,  con dos valores (true y false).</li>
+            <li>Null: Valor asignado con un valor de “no valor”.</li>
+            <li>Undefined: Variable que no tiene asignado ningún valor.</li>
+            <li>Symbol: Nuevo en ECMAScript 2015.</li>
+            <li>Object: Valor en memoria al que se accede por un identificador.</li>
+
+        </ul>
+        <p>Estos tipos se dividen en dos grupos, Primitivos y de Objeto.</p>
+        <h3>Tipos Primitivos</h3>
+        <p>Los valores primitivos, no pueden ser cambiados, no tienen métodos ni propiedades.</p>
+        <h4>String</h4>
+        <p>Es una cadena de caracteres. A cada carácter de una cadena se le asigna una posición, empezando en la posición 0 y así sucesivamente.</p>
+        <h4>Number</h4>
+        <p>Es utilizada para almacenar valores numéricos. No hay un tipo específico para los números enteros y de coma flotante</p>
+        <h4>Boolean</h4>
+        <p>Es aquel que puede representar los valores de lógica binaria, esto es 2 valores, normalmente representan falso o verdadero</p>
+        <h4>Null</h4>
+        <p>El tipo Null tiene el valor: null. Esto quiere decir que es una variable a la que no se le ha asginado ningun valor aún</p>
+        <h4>Undefined</h4>
+        <p>Una variable a la cual no se le haya asignado valor tiene el valor undefined.</p>
+        <h4>Symbol</h4>
+        <p>Es un tipo de dato con valores únicos e inmutables. Esos valores pueden ser utilizados como identificadores de las propiedades de los objetos. Cada valor tiene asociado un valor del tipo String o Undefined que sirve como descripción del símbolo.</p>
+        <h3>Tipos de Objeto</h3>
+        <p>Es un valor en memoria al que podemos acceder por un identificador. Los objetos pueden ser vistos como una colección de propiedades.</p>
+        <h4>Typeof</h4>
+        <p>El operador devuelve una cadena indicando el tipo de valor de una variable.</p>
+        <h2>Expresiones Regulares</h2>
+        <p>Las expresiones regulares son patrones utilizados para encontrar una determinada combinación de caracteres dentro de una cadena de texto        </p>
+        <p>Se emplean para la búsqueda y reemplazo de un patrón en una cadena y validación de campos en un formulario.</p>
+        <p>Una expresión regular puede crearse utilizando una representación literal de la expresión regular, consistente en un patrón encerrado entre diagonales.</p>
+        <p>La representación literal ofrece la compilación de la expresión regular cuando se carga el script donde se encuentra. Si la expresión regular permanece constante, usar esto puede mejorar en rendimiento. Llamando a la función constructora del objeto RegExp.</p>
+        <p>El uso de la función constructora ofrece la compilación en tiempo de ejecución de la expresión regular. Es habitual usar la función constructora cuando se sabe que el patrón de la expresión regular cambiará, o cuando se desconozca el patrón. Un patrón de expresión regular se compone de caracteres simples y una combinación de caracteres simples y especiales, </p>
+        <h3>Patrones simples:</h3>
+        <p>Los patrones simples se construyen con caracteres para los que se desea una coincidencia exacta</p>
+        <h3>Caracteres especiales:</h3>
+        <p>Cuando la búsqueda de coincidencias requiere algo más que una coincidencia exacta, se incluyen en el patrón caracteres especiales. </p>
+        <h3>Uso de paréntesis:</h3>
+        <p>Los paréntesis alrededor de alguna parte del patrón de la expresión regular hacen que parte de la subcadena que coincida sea recordada. Una vez recordada, puede ser rellamada en otro uso.</p>
+        <h3>Uso de expresiones regulares:</h3>
+        <p>Las expresiones regulares se utilizan con los métodos de RegExp test y exec y con los metodos de String match, replace, search, y split</p>
+    </div>
     
 </body>
 </html>
